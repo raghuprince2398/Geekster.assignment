@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Flexbox
+    </title>
+     <style>
+        .container{
+              display: flex;
+              padding: 20px;
+              justify-content: center;
+              margin-top: 250px;
+        }
+        .box{
+            width: 300px;
+            height: 50px;
+            border: 1px solid black;
+            margin: auto;
+            background-color: green;
+
+        }
+        body{
+            background-color: red;
+        }
+        #b2{
+            position: relative;
+            text-align: center;
+        }
+        #b3{
+            position: relative;
+            text-align: right;
+        }
+        
+     </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3 id="b1">child1</h3> 
+        </div>
+        <div class="box">
+            <h3 id="b2">child2</h3>  
+        </div>
+        <div class="box">
+            <h3 id="b3">child3</h3>
+        </div>
+    </div>
+</body>
